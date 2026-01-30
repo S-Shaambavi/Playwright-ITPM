@@ -1,0 +1,24 @@
+{
+  "name": "thanglish-tamil-transliteration-test",
+  "version": "1.0.0",
+  "description": "Playwright automation for Thanglish to Tamil transliteration testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "tamil",
+    "transliteration"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.0"
+  }
+}
