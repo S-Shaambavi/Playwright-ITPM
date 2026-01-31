@@ -1,10 +1,10 @@
 # Test Execution Report
 
-**Date:** 1/30/2026, 6:36:40 PM
+**Date:** 1/31/2026, 9:59:54 PM
 
 **Total Tests:** 34
-**Passed:** 3
-**Failed:** 31
+**Passed:** 17
+**Failed:** 17
 
 ---
 
@@ -12,9 +12,9 @@
 
 **Test Case:** Pos_Fun_0001 - Daily language usage
 
-**Input:** naan netru soru saappitten
-**Expect Output:** நான் நேற்று சோறு சாப்பிட்டேன்
-**Actual Output:** நான் நேற்று சோறு சாப்பிட்டேன்
+**Input:** N/A
+**Expect Output:** N/A
+**Actual Output:** N/A
 **Result:** ❌ FAIL
 
 ---
@@ -23,9 +23,9 @@
 
 **Test Case:** Pos_Fun_0002 - Simple request
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** thayavu seithu enakku neer thaarungal
+**Expect Output:** தயவு செய்து எனக்கு நீர் தாருங்கள்
+**Actual Output:** தயவு செய்து எனக்கு நீர் thaarungal
 **Result:** ❌ FAIL
 
 ---
@@ -34,10 +34,10 @@
 
 **Test Case:** Pos_Fun_0003 - Simple question
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** naalaikku paadasalaikku poveengala
+**Expect Output:** நாளைக்கு பாடசாலைக்கு போவீங்களா
+**Actual Output:** நாளைக்கு பாடசாலைக்கு போவீங்களா
+**Result:** ✅ PASS
 
 ---
 
@@ -45,21 +45,21 @@
 
 **Test Case:** Pos_Fun_0004 - Compound sentence
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** Naan kadaikku ponaan aanaal onnum vaangavillai
+**Expect Output:** நான் கடைக்கு போனான் ஆனால் ஒன்னும் வாங்கவில்லை
+**Actual Output:** நான் கடைக்கு போனான் ஆனால் ஒன்னும் வாங்கவில்லை
+**Result:** ✅ PASS
 
 ---
 
 ## Pos_Fun_0005
 
-**Test Case:** Pos_Fun_0005 - Complex sentence
+**Test Case:** Pos_Fun_0005 - Uppercase only
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** MAZHAI PEYTHATHAAL NAAN VELIYA POGALA
+**Expect Output:** மழை பெய்ததால் நான் வெளிய போகல
+**Actual Output:** மழை பெய்ததால் நான் வெளிய போகல
+**Result:** ✅ PASS
 
 ---
 
@@ -67,9 +67,9 @@
 
 **Test Case:** Pos_Fun_0006 - Greeting
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** vanakkam eppadi irukkinga? Veetta elaarum sugamaa?
+**Expect Output:** வணக்கம் எப்படி இருக்கீங்க? வீட்டை எல்லாரும் சுகமா?
+**Actual Output:** வணக்கம் எப்படி இருக்கீங்க? வீட்டை எல்லாரும் sugamaa?
 **Result:** ❌ FAIL
 
 ---
@@ -78,9 +78,9 @@
 
 **Test Case:** Pos_Fun_0007 - Proverb
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** alavukku minjinaal amirthamum nanju
+**Expect Output:** அளவுக்கு மிஞ்சினால் அமிர்தமும் நஞ்சு
+**Actual Output:** அளவுக்கு minjinaal amirthamum nanju
 **Result:** ❌ FAIL
 
 ---
@@ -89,10 +89,10 @@
 
 **Test Case:** Pos_Fun_0008 - Place name
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** naan Mannaar ill irunthu Vavuniya velikkiren
+**Expect Output:** நான் மன்னார் இல் இருந்து வவுனியா வெளிக்கிறேன்
+**Actual Output:** நான் மன்னார் இல் இருந்து வவுனியா வெளிக்கிறேன்
+**Result:** ✅ PASS
 
 ---
 
@@ -100,10 +100,10 @@
 
 **Test Case:** Pos_Fun_0009 - Literary Tamil
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** manithanin sinthaniye avanathu vaazhgaiyai amaikkum
+**Expect Output:** மனிதனின் சிந்தனையே அவனது வாழ்க்கையை அமைக்கும்
+**Actual Output:** மனிதனின் சிந்தனையே அவனது வாழ்க்கையை அமைக்கும்
+**Result:** ✅ PASS
 
 ---
 
@@ -111,32 +111,32 @@
 
 **Test Case:** Pos_Fun_0010 - Poetic Line
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** nilaa oli amaithiyaana iravin irulil veenai isai pola paravugirathu
+**Expect Output:** நிலா ஒளி அமைதியான இரவின் இருளில் வீணை இசை போல பரவுகிறது
+**Actual Output:** nilaa oli amaithiyaana iravin irulil veenai isai pola paravugirathu
 **Result:** ❌ FAIL
 
 ---
 
 ## Pos_Fun_0011
 
-**Test Case:** Pos_Fun_0011 - Motivational sentence
+**Test Case:** Pos_Fun_0011 - Capitalization in each word
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** Muyarchi Thaan Vetriyin Mudhal Padi
+**Expect Output:** முயற்சி தான் வெற்றியின் முதல் படி
+**Actual Output:** முயற்சி தான் வெற்றியின் முதல் படி
+**Result:** ✅ PASS
 
 ---
 
 ## Pos_Fun_0012
 
-**Test Case:** Pos_Fun_0012 - Wisdom line
+**Test Case:** Pos_Fun_0012 - Big spaces
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** arivu     enra     selvam     ellaa     selvangalilum     periyathu
+**Expect Output:** அறிவு     என்ற     செல்வம்     எல்லா     செல்வங்களிலும்     பெரியது
+**Actual Output:** அறிவு     என்ற     செல்வம்     எல்லா     செல்வங்களிலும்     பெரியது
+**Result:** ✅ PASS
 
 ---
 
@@ -144,10 +144,10 @@
 
 **Test Case:** Pos_Fun_0013 - Instruction sentence
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** vinnappaththai muraiyaaga nirappiya pinbu aluvalagaththil oppadaikkavum
+**Expect Output:** விண்ணப்பத்தை முறையாக நிரப்பிய பின்பு அலுவலகத்தில் ஒப்படைக்கவும்
+**Actual Output:** விண்ணப்பத்தை முறையாக நிரப்பிய பின்பு அலுவலகத்தில் ஒப்படைக்கவும்
+**Result:** ✅ PASS
 
 ---
 
@@ -155,10 +155,10 @@
 
 **Test Case:** Pos_Fun_0014 - Command sentence
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** noolagathirku varuvarku munpu ungalathu paathanigalai agatri viddu varavum
+**Expect Output:** நூலகத்திற்கு வருவற்கு முன்பு உங்களது பாதணிகளை அகற்றி விட்டு வரவும்
+**Actual Output:** நூலகத்திற்கு வருவற்கு முன்பு உங்களது பாதணிகளை அகற்றி விட்டு வரவும்
+**Result:** ✅ PASS
 
 ---
 
@@ -166,9 +166,9 @@
 
 **Test Case:** Pos_Fun_0015 - News line
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** kadarkarai pagudigalil palaththa kaatru veesum vaayppu ullathu ena echcharikkai vidappaddullathu
+**Expect Output:** கடற்கரை பகுதிகளில் பலத்த காற்று வீசும் வாய்ப்பு உள்ளது என எச்சரிக்கை விடப்பட்டுள்ளது
+**Actual Output:** கடற்கரை பகுதிகளில் பலத்த காற்று வீசும் வாய்ப்பு ullathu ena echcharikkai விடப்பட்டுள்ளது
 **Result:** ❌ FAIL
 
 ---
@@ -188,10 +188,10 @@
 
 **Test Case:** Pos_Fun_0017 - Declarative line
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** avan epothume thaanum thanathu velaiyai mattume paarthuttu iruppaan
+**Expect Output:** அவன் எப்போதுமே தானும் தனது வேலையை மட்டுமே பார்த்துட்டு இருப்பான்
+**Actual Output:** அவன் எப்போதுமே தானும் தனது வேலையை மட்டுமே பார்த்துட்டு இருப்பான்
+**Result:** ✅ PASS
 
 ---
 
@@ -199,10 +199,10 @@
 
 **Test Case:** Pos_Fun_0018 -  Respectful form
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** naam eppothum namakku mooththorukku mariyatha kodukka vendum
+**Expect Output:** நாம் எப்போதும் நமக்கு மூத்தோருக்கு மரியாதை கொடுக்க வேண்டும்
+**Actual Output:** நாம் எப்போதும் நமக்கு மூத்தோருக்கு மரியாதை கொடுக்க வேண்டும்
+**Result:** ✅ PASS
 
 ---
 
@@ -210,10 +210,10 @@
 
 **Test Case:** Pos_Fun_0019 - Plural form
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** pasanga maithaanaththil kilithattu vilaiyaadinaargal
+**Expect Output:** பசங்க மைதானத்தில் கிளித்தட்டு விளையாடினார்கள்
+**Actual Output:** பசங்க மைதானத்தில் கிளித்தட்டு விளையாடினார்கள்
+**Result:** ✅ PASS
 
 ---
 
@@ -221,53 +221,53 @@
 
 **Test Case:** Pos_Fun_0020 - Medium paragraph
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** kaalaiyil thinamum ezhunthu veettu velaigalai mudiththa pinpu naan enathu palkalaigalagaththirku seluven. Angu senru enathu paadangalai padiththu muditha pinbu veettirkku seluven
+**Expect Output:** காலையில் தினமும் எழுந்து வீட்டு வேலைகளை முடித்த பின்பு நான் எனது பல்கலைகழகத்திற்கு செல்லுவேன். அங்கு சென்று எனது பாடங்களை படித்து முடித்த பின்பு வீட்டிற்கு செல்லுவேன்
+**Actual Output:** காலையில் தினமும் எழுந்து வீட்டு வேலைகளை முடித்த பின்பு நான் எனது பல்கலைகழகத்திற்கு செல்லுவேன். அங்கு சென்று எனது பாடங்களை படித்து முடித்த பின்பு வீட்டிற்கு செல்லுவேன்
+**Result:** ✅ PASS
 
 ---
 
 ## Pos_Fun_0021
 
-**Test Case:** Pos_Fun_0021 - News line
+**Test Case:** Pos_Fun_0021 - Emoji
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
-**Result:** ❌ FAIL
+**Input:** naan vellikkizhamaiyil asaivam saappida maatten 🫡😣
+**Expect Output:** நான் வெள்ளிக்கிழமையில் அசைவம் சாப்பிட மாட்டேன் 🫡😣
+**Actual Output:** நான் வெள்ளிக்கிழமையில் அசைவம் சாப்பிட மாட்டேன் 🫡😣
+**Result:** ✅ PASS
 
 ---
 
 ## Pos_Fun_0022
 
-**Test Case:** Pos_Fun_0022 - News line
+**Test Case:** Pos_Fun_0022 - Punctuation mark
 
-**Input:** paadasalaikku sella munpu kaalai unavu saappida vendum
-**Expect Output:** பாடசாலைக்கு செல்ல முன்பு காலை உணவு சாப்பிட வேண்டும்
-**Actual Output:** பாடசாலைக்கு செல்ல முன்பு காலை உணவு சாப்பிட வேண்டும்
+**Input:** paadasalaikku sella munpu, "kaalai unavu" mukkiyamaga saappida vendum
+**Expect Output:** பாடசாலைக்கு செல்ல முன்பு, "காலை உணவு" முக்கியமாக சாப்பிட வேண்டும்
+**Actual Output:** பாடசாலைக்கு செல்ல முன்பு, "காலை உணவு" முக்கியமாக சாப்பிட வேண்டும்
 **Result:** ✅ PASS
 
 ---
 
 ## Pos_Fun_0023
 
-**Test Case:** Pos_Fun_0023 - News line
+**Test Case:** Pos_Fun_0023 - Emoji with punctuation mark
 
-**Input:** naalaikku piranthanaal kondaadam ondru irukirathu anaivarum marakaamal varavum
-**Expect Output:** நாளைக்கு பிறந்தநாள் கொண்டாட்டம் ஒன்று இருக்கிறது அனைவரும் மறக்காமல் வரவும்
-**Actual Output:** நாளைக்கு பிறந்தநாள் கொண்டாட்டம் ஒன்று இருக்கிறது அனைவரும் மறக்காமல் வரவும்
+**Input:** naalaikku piranthanaal 🎂 kondaadam ondru irukirathu, anaivarum marakaamal varavum 😊
+**Expect Output:** நாளைக்கு பிறந்தநாள் 🎂 கொண்டாட்டம் ஒன்று இருக்கிறது, அனைவரும் மறக்காமல் வரவும் 😊
+**Actual Output:** நாளைக்கு பிறந்தநாள் 🎂 கொண்டாட்டம் ஒன்று இருக்கிறது, அனைவரும் மறக்காமல் வரவும் 😊
 **Result:** ✅ PASS
 
 ---
 
 ## Pos_Fun_0024
 
-**Test Case:** Pos_Fun_0024 - News line
+**Test Case:** Pos_Fun_0024 - Upper case only with Emoji
 
-**Input:** Adshayaa netru oru sivappu theneer koppai vaanginaar
-**Expect Output:** அட்ஷயா நேற்று ஒரு சிவப்பு தேநீர் கோப்பை வாங்கினார்
-**Actual Output:** அட்ஷயா நேற்று ஒரு சிவப்பு தேநீர் கோப்பை வாங்கினார்
+**Input:** ADSHAYAA NETRU ORU SIVAPPU THEANEER KOPPAI ☕🍵 VAANGINAAR
+**Expect Output:** அட்ஷயா நேற்று ஒரு சிவப்பு தேநீர் கோப்பை ☕🍵 வாங்கினார்
+**Actual Output:** அட்ஷயா நேற்று ஒரு சிவப்பு தேநீர் கோப்பை ☕🍵 வாங்கினார்
 **Result:** ✅ PASS
 
 ---
@@ -287,9 +287,9 @@
 
 **Test Case:** Neg_Fun_0002 - English with numeric content
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** naan 500 roobaikku niraiya things vaanginen
+**Expect Output:** நான் 500 ரூபாய்க்கு நிறைய things வாங்கினேன்
+**Actual Output:** நான் ௫௦௦ ரூபாய்க்கு நிறைய தாங்ஸ் வாங்கினேன்
 **Result:** ❌ FAIL
 
 ---
@@ -298,9 +298,9 @@
 
 **Test Case:** Neg_Fun_0003 - English long sentence
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** Naan romba excited aaga irukken because ennoda chinna vayasu nanbanai meet panna poren.
+**Expect Output:** நான் ரொம்ப excited இருக்கேன் because என்னோட சின்ன வயசு நண்பனை meet பண்ண போறேன்
+**Actual Output:** நான் ரொம்ப எஸ்சிட்டேட் ஆகா இருக்கேன் பேஸாஸே என்னோட சின்ன வயசு நண்பனை மீட் பண்ண போறேன்.
 **Result:** ❌ FAIL
 
 ---
@@ -309,9 +309,9 @@
 
 **Test Case:** Neg_Fun_0004 - Multiple spaces and formatting
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** naan      nalaikku     market       pogiren
+**Expect Output:** நான்    நாளைக்கு    மார்க்கெட்    போகிறேன்
+**Actual Output:** நான்      நாளைக்கு     மார்க்கெட்       போகிறேன்
 **Result:** ❌ FAIL
 
 ---
@@ -320,9 +320,9 @@
 
 **Test Case:** Neg_Fun_0005 - Mixed symbols and numbers
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** ungalathu meethiyai arivatharku *567# azhuthungal
+**Expect Output:** உங்களது மீதியை அறிவதற்கு *567# அழுத்துங்கள்
+**Actual Output:** உங்களது மீதியை அறிவதற்கு *௫௬௭# அழுத்துங்கள்
 **Result:** ❌ FAIL
 
 ---
@@ -331,9 +331,9 @@
 
 **Test Case:** Neg_Fun_0006 - Time format with punctuation
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** naan 06.00 A.M. manikku veettukku ponaan
+**Expect Output:** நான் 06.30 A.M. மணிக்கு வீட்டுக்கு போனான்
+**Actual Output:** நான் ௦௬.௦௦ எ.ம். மணிக்கு வீட்டுக்கு போனான்
 **Result:** ❌ FAIL
 
 ---
@@ -342,20 +342,20 @@
 
 **Test Case:** Neg_Fun_0007 - Long paragraph
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** innaiku naan romba tired aaga irukken because kalaila irundhu meeting mela meeting poiddae irunthathu, Zoom meeting, Teams meeting ellame back to back aaga nadanthuchu, and athukku mela evening classes vera irunthuchu. adhanaala correct aaga sapida kooda mudiyala
+**Expect Output:** இன்னைக்கு நான் ரொம்ப tired ஆக இருக்கேன் because காலைல இருந்து meeting மேல meeting போய்ட்டே இருந்தது, Zoom meeting, Teams meeting எல்லாமே back to back ஆக நடந்துச்சு, அதுக்கு மேல evening classes வேற இருந்துச்சு. அதனால correct ஆக சாப்பிட கூட முடியல
+**Actual Output:** இன்னைக்கு நான் ரொம்ப டிரேட் ஆகா இருக்கேன் பேஸாஸே காலைல இருந்து மீட்டிங் மேல மீட்டிங் போய்டதே இருந்தது, ஜூம் மீட்டிங், தேம்ஸ் மீட்டிங் எல்லாமே பாசக் டு பாசக் ஆகா நடந்துச்சு, அண்ட் அதுக்கு மேல ஈவினிங் கிளாஸ்ஸஸ் வேற இருந்துச்சு. அதனால கரெக்ட் ஆகா சாப்பிட கூட முடியல
 **Result:** ❌ FAIL
 
 ---
 
 ## Neg_Fun_0008
 
-**Test Case:** Neg_Fun_0008 - Quotation marks handling
+**Test Case:** Neg_Fun_0008 - Symbols Handling 
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** Ennoda maama velinaadula irunthu 130$ kittathatta 58000/=  enakku thanthaar
+**Expect Output:** என்னோட மாமா வெளிநாட்டுல இருந்து 13௦$ கிட்டத்தட்ட 58௦௦௦/= எனக்கு தந்தார்
+**Actual Output:** என்னோட மாமா வெளிநாட்டுல இருந்து ௧௩௦$ kittathatta 58000/=  enakku thanthaar
 **Result:** ❌ FAIL
 
 ---
@@ -364,9 +364,9 @@
 
 **Test Case:** Neg_Fun_0009 - Phone number sequence handling
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** Mealathiga thagavalgalukku 021 224 2953 enra tholaipeasi ilakkaththai thodarungal
+**Expect Output:** மேலதிக தகவல்களுக்கு 021 224 2953 என்ற தொலைபேசி இலக்கத்தை தொடருங்கள்
+**Actual Output:** மேலதிக தகவல்களுக்கு ௦௨௧ ௨௨௪ ௨௯௫௩ என்ற தொலைபேசி இலக்கத்தை thodarungal
 **Result:** ❌ FAIL
 
 ---
@@ -375,9 +375,9 @@
 
 **Test Case:** Neg_Fun_0010 - abbreviation words with names/places
 
-**Input:** N/A
-**Expect Output:** N/A
-**Actual Output:** N/A
+**Input:** pls naama naalaikku KFC poiddu SLIIT Northern uni ill meet pannuvom
+**Expect Output:** pls நாம நாளைக்கு KFC போய்ட்டு SLIIT Northern uni இல் meet பண்ணுவோம்
+**Actual Output:** ப்ளஸ் நாம நாளைக்கு கஃக் போய்ட்டு ஸ்லிய்ட் நொர்தேர்ன் உன்னி இல் meet pannuvom
 **Result:** ❌ FAIL
 
 ---

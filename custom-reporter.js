@@ -13,8 +13,7 @@ class MarkdownReporter {
     if (!fs.existsSync(this.reportDir)) {
       fs.mkdirSync(this.reportDir, { recursive: true });
     }
-    
-    // Clear previous results
+
     this.results = [];
     
     // Print clean header
@@ -25,13 +24,22 @@ class MarkdownReporter {
     const testTitle = test.title;
     const testId = testTitle.match(/(Pos_Fun_\d+|Neg_Fun_\d+)/)?.[0] || 'N/A';
     
-    // Extract input, expected, and actual from console logs
+    // Extract input, expected, and actual from annotations (PRIMARY) or console logs (FALLBACK)
     let input = 'N/A';
     let expectOutput = 'N/A';
     let actualOutput = 'N/A';
     
-    if (result.stdout && result.stdout.length > 0) {
-      const logs = result.stdout.map(s => s.text || s.toString()).join('\n');
+    // Try annotations first (most reliable)
+    const annotations = result.annotations || test.annotations || [];
+    if (annotations.length > 0) {
+      annotations.forEach(annotation => {
+        if (annotation.type === 'Input') input = annotation.description;
+        if (annotation.type === 'Expected') expectOutput = annotation.description;
+        if (annotation.type === 'Actual') actualOutput = annotation.description;
+      });
+    } else if (result.stdout && result.stdout.length > 0) {
+
+    const logs = result.stdout.map(s => s.text || s.toString()).join('\n');
       
       const inputMatch = logs.match(/Input:\s*(.+)/);
       const expectedMatch = logs.match(/Expected:\s*(.+)/);
